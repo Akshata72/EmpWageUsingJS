@@ -1,13 +1,3 @@
-//UC1 - emp is prsent or absent
-const IS_ABSENT = 0;
-//Math.random() provides a random number from 0,1 ) 
-let empCheck = Math.floor(Math.random() * 3) ;
-if (empCheck == IS_ABSENT) {
-    console.log("Employee is ABSENT");
-} else {
-    console.log("Employee is PRESENT");
-}
-
 //UC2 - Ability to Calculate Daily Employee Wage based on part time or full time work 
 const IS_ABSENT = 0;
 const IS_PART_TIME = 1;
@@ -35,3 +25,7 @@ switch (empCheck) {
 
 let empWage = empHrs * WAGE_PER_HOUR; //const WAGE_PER_HOUR = 20;
 console.log("Emp Wage: " + empWage);
+
+
+//UC3 Get Working Hours
+console.log("Emp Hours: " +empHrs);
